@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.body-style{
+    background-color: black;
+}
+.container{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    background-color: white;
+}
+.btn-box{
+    height: 100%;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+transition: 2s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.second-style{
+    background-color: deeppink;
+margin-left: 145px;
+}
+.bi-brightness-high{
+    background: -webkit-linear-gradient(dodgerblue, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
