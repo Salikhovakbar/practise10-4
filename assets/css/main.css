@@ -11,7 +11,8 @@ body{
     align-items: center;
 }
 .body-style{
-    background-color: black;
+    background: -webkit-linear-gradient(dodgerblue, purple);
+
 }
 .container{
     width: 200px;
@@ -35,7 +36,5 @@ justify-content: center;
 margin-left: 145px;
 }
 .bi-brightness-high{
-    background: -webkit-linear-gradient(dodgerblue, red);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+color: gold;
 }
